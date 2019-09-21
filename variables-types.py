@@ -1,9 +1,18 @@
 '''
+WIFI PASSWORD : kopikuenak
+SSID : THE BROS
+'''
+
+
+
+'''
 NUMBER
 =====================
 Python supports two types of numbers - integers and floating point numbers.
 '''
-# integer
+
+
+# # integer
 # myint = 7
 # print(myint)
 # print(type(myint)) # check the type of variable myint
@@ -15,12 +24,16 @@ Python supports two types of numbers - integers and floating point numbers.
 # print(myfloat)
 # print(type(myfloat))
 
+# new_integer_to_float = int(myfloat)
 
 '''
 STRINGS
 ====================
 Strings are defined either with a single quote or a double quotes.
 '''
+
+# mystring = 'i can'
+# mystring = "hello i can't"
 
 # mystring = 'Hello'
 # print(mystring)
@@ -82,13 +95,13 @@ Mixing operators between numbers and strings is not supported:
 '''
 The target of this exercise is to create a string, an integer, and a floating point number. The string should be named mystring and should contain the word "hello". The floating point number should be named myfloat and should contain the number 10.0, and the integer should be named myint and should contain the number 20.
 '''
-'''
+
 
 # The isinstance() function returns True if the specified object is of the specified type, otherwise False.
 
-mystring = None
-myfloat = None
-myint = None
+mystring = "hello"
+myfloat = 10.0
+myint = 20
 
 # testing code
 if mystring == "hello":
@@ -97,4 +110,3 @@ if isinstance(myfloat, float) and myfloat == 10.0:
     print("Float: %f" % myfloat)
 if isinstance(myint, int) and myint == 20:
     print("Integer: %d" % myint)
-'''
